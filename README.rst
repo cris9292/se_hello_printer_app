@@ -1,5 +1,10 @@
 Simple Flask App
 ================
+- Instalacja bash it
+
+git clone --depth=1 https://github.com/Bash-it/bash-it ~/.bash-it
+cd ~/.bash-it
+./install.sh
 
 Aplikacja Dydaktyczna wyświetlająca imię i wiadomość w różnych formatach dla zajęć
 o Continuous Integration, Continuous Delivery i Continuous Deployment.
@@ -10,7 +15,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
     source /usr/bin/virtualenvwrapper.sh
     mkvirtualenv wsb-simple-flask-app
-    # jezeli nie zadziała trzeba zainstalwoac komponenty z sekcji pomocnicze. 
+    # jezeli nie zadziała trzeba zainstalwoac komponenty z sekcji pomocnicze.
     pip install -r requirements.txt
     pip install -r test_requirements.txt
 
