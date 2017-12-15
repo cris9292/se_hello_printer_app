@@ -1,10 +1,5 @@
 Simple Flask App
 ================
-- Instalacja bash it
-
-git clone --depth=1 https://github.com/Bash-it/bash-it ~/.bash-it
-cd ~/.bash-it
-./install.sh
 
 Aplikacja Dydaktyczna wyświetlająca imię i wiadomość w różnych formatach dla zajęć
 o Continuous Integration, Continuous Delivery i Continuous Deployment.
@@ -15,7 +10,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
     source /usr/bin/virtualenvwrapper.sh
     mkvirtualenv wsb-simple-flask-app
-    # jezeli nie zadziała trzeba zainstalwoac komponenty z sekcji pomocnicze.
+    # jezeli nie zadziała trzeba zainstalwac komponenty z sekcji pomocnicze.
     pip install -r requirements.txt
     pip install -r test_requirements.txt
 
@@ -46,12 +41,28 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
 - Integracja z TravisCI:
 
-  ::
+# Tworzymy plik konfiguracyjny dla dolonego jezyka  " .travis.yml "
+Dla pythona dostepne pod adresem https://docs.travis-ci.com/user/languages/python/
+...
+language: python
+services:
+  - docker
+python:
+  - "2.7"
 
-    ...
+install:
+  - make deps
+
+script:
+  - make test  ### Docker opcjonalnie
+
+after_success:
+  - make docker_build
+  - make docker_push
+...
 
 
-Pomocnicze
+Pomocnicze pliki instalcyjne
 ==========
 
 - Instalacja python virtualenv i virtualenvwrapper:
@@ -82,6 +93,12 @@ Pomocnicze
     yum makecache fast
     yum install docker-ce
     systemctl start docker
+
+- Instalacja bash it (opcjonalnie )
+
+    git clone --depth=1 https://github.com/Bash-it/bash-it ~/.bash-it
+    cd ~/.bash-it
+    ./install.sh
 
 Materiały
 =========
