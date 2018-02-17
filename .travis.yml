@@ -16,5 +16,5 @@ after_success:
 
 deploy:
   provider: heroku
-  app: se_hello_printer_app
+  app: agile-dawn-58348
   api_key: ${HEROKU_API_KEY}
