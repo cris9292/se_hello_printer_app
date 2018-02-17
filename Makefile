@@ -1,4 +1,4 @@
-.PHONY: test
+.PHONY: test deps
 
 deps:
 	pip install -r requirements.txt ; \
@@ -9,6 +9,9 @@ lint:
 
 test:
 	PYTHONPATH=. py.test  --verbose -s
+
+test_smoke:
+	curl -I --fail 127.0.0.1:5000
 
 run:
 	python main.py
