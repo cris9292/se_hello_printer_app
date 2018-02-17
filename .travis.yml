@@ -17,4 +17,4 @@ after_success:
 deploy:
   provider: heroku
   app: se_hello_printer_app
-  api_key:  ${HEROKU_API_KEY}
+  api_key: ${HEROKU_API_KEY}
