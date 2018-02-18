@@ -114,15 +114,15 @@ Pomocnicze pliki instalcyjne
 
 - Konfiguracja gita
 
-- sprawdź konfigurację (małe L):
-git config -l
-git config --global user.name "wojciech11"
-- nie lubimy spamerów:
-git config --global user.email "wojciech11@users.noreply.github.com"
-- domyślnie jest vim albo emacs
-git config --global core.editor "atom --wait
+-sprawdź konfigurację (małe L):
+    git config -l
+    git config --global user.name "wojciech11"
+-nie lubimy spamerów:
+    git config --global user.email "wojciech11@users.noreply.github.com"
+-domyślnie jest vim albo emacs
+    git config --global core.editor "atom --wait
 
-- Dodanie monitoringu Statuscake oraz TravisCI
+- Dodanie monitoringu Statuscake (aplikacji) oraz TravisCI
 
 Statuscake
 
