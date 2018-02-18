@@ -121,6 +121,14 @@ git config --global user.email "wojciech11@users.noreply.github.com"
 # domyślnie jest vim albo emacs
 git config --global core.editor "atom --wait
 
+- Dodanie monitoringu Statuscake oraz TravisCI
+ #Statuscake
+  image: https://app.statuscake.com/button/index.php?Track=xtMhzQt0gU&Days=1&Design=1
+    :target: https://www.statuscake.com
+#TravisCI
+  image:: https://travis-ci.org/cris9292/se_hello_printer_app.svg?branch=master
+    :target: https://travis-ci.org/cris9292/se_hello_printer_app
+
 Materiały
 =========
 
