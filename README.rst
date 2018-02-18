@@ -114,6 +114,7 @@ Pomocnicze pliki instalcyjne
 
 - Konfiguracja gita
 
+<<<<<<< HEAD
 -sprawdź konfigurację (małe L):
     git config -l
     git config --global user.name "wojciech11"
@@ -123,14 +124,31 @@ Pomocnicze pliki instalcyjne
     git config --global core.editor "atom --wait
 
 - Dodanie monitoringu Statuscake (aplikacji) oraz TravisCI
+=======
+# sprawdź konfigurację (małe L):
+git config -l
+git config --global user.name "wojciech11"
+# nie lubimy spamerów:
+git config --global user.email "wojciech11@users.noreply.github.com"
+# domyślnie jest vim albo emacs
+git config --global core.editor "atom --wait
+
+- Dodanie monitoringu Statuscake oraz TravisCI
+>>>>>>> 61db12d8bcba73b8bdb475b2f4ea720113c58453
 
 Statuscake
 
 .. image:: https://app.statuscake.com/button/index.php?Track=xtMhzQt0gU&Days=1&Design=1
     :target: https://www.statuscake.com
+<<<<<<< HEAD
 
 TravisCI
 
+=======
+    
+#TravisCI
+
+>>>>>>> 61db12d8bcba73b8bdb475b2f4ea720113c58453
 .. image:: https://travis-ci.org/cris9292/se_hello_printer_app.svg?branch=master
     :target: https://travis-ci.org/cris9292/se_hello_printer_app
 
