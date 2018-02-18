@@ -7,8 +7,9 @@ python:
 install:
   - make deps
 script:
-- make test_xunit
 - make lint
+- make test_xunit
+
 
 after_success:
   - make docker_build
