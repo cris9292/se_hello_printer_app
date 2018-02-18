@@ -127,6 +127,7 @@ git config --global core.editor "atom --wait
 
   image: https://app.statuscake.com/button/index.php?Track=xtMhzQt0gU&Days=1&Design=1
     :target: https://www.statuscake.com
+    
 #TravisCI
 
   image:: https://travis-ci.org/cris9292/se_hello_printer_app.svg?branch=master
