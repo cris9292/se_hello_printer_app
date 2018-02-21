@@ -142,8 +142,6 @@ Statuscake
     :target: https://www.statuscake.com
 
 TravisCI
-
->>>>>>> 61db12d8bcba73b8bdb475b2f4ea720113c58453
 .. image:: https://travis-ci.org/cris9292/se_hello_printer_app.svg?branch=master
     :target: https://travis-ci.org/cris9292/se_hello_printer_app
 
