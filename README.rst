@@ -138,14 +138,10 @@ git config --global core.editor "atom --wait
 
 Statuscake
 
-..image:: https://app.statuscake.com/button/index.php?Track=so7HovSMQG&Days=1000&Design=1
+.. image:: https://app.statuscake.com/button/index.php?Track=so7HovSMQG&Days=1000&Design=1
     :target: https://www.statuscake.com
 
 TravisCI
-
-=======
-    
-#TravisCI
 
 >>>>>>> 61db12d8bcba73b8bdb475b2f4ea720113c58453
 .. image:: https://travis-ci.org/cris9292/se_hello_printer_app.svg?branch=master
