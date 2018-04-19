@@ -106,11 +106,6 @@ Pomocnicze pliki instalcyjne
     yum install docker-ce
     systemctl start docker
 
-- Instalacja bash it (opcjonalnie )
-
-    git clone --depth=1 https://github.com/Bash-it/bash-it ~/.bash-it
-    cd ~/.bash-it
-    ./install.sh
 
 - Konfiguracja gita
 
