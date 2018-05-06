@@ -10,7 +10,8 @@ script:
  - make lint
  - make docker_build
  - make docker_run
- - make test_api
+ - sleep 3; make test_api
+
 
 
 
