@@ -1,4 +1,4 @@
-Simple Flask App 17.02.2018
+Simple Flask App 06.05.2018
 ================
 
 Aplikacja Dydaktyczna wyświetlająca imię i wiadomość w różnych formatach dla zajęć
